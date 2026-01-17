@@ -1,0 +1,42 @@
+{
+  "teen1": {
+    "user_id": "000001",
+    "password": "ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f",
+    "email": "teen1@example.com",
+    "age": 16,
+    "created_at": "2024-01-01T10:00:00",
+    "streak": 7,
+    "total_invested": 15000,
+    "portfolio_value": 16250,
+    "achievements": [
+      "7_day_streak",
+      "first_investment"
+    ],
+    "avatar_color": "#667eea",
+    "nominee": {
+      "name": "John Parent",
+      "relationship": "Parent",
+      "phone": "9876543210",
+      "email": "parent@example.com",
+      "id_proof": "Aadhaar Card",
+      "id_number": "XXXX-XXXX-XXXX",
+      "added_date": "2024-01-05T14:30:00"
+    }
+  },
+  "investor": {
+    "user_id": "000002",
+    "password": "fd59b97d0cbc8cc25578927a0788ef1e6cb365cbd5a313aec03044e6179ee79a",
+    "email": "investor@example.com",
+    "age": 18,
+    "created_at": "2024-01-15T09:00:00",
+    "streak": 15,
+    "total_invested": 35000,
+    "portfolio_value": 37800,
+    "achievements": [
+      "7_day_streak",
+      "first_investment",
+      "thousand_points"
+    ],
+    "avatar_color": "#10b981"
+  }
+}
