@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
-import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import json
 import os
@@ -13,6 +11,20 @@ from PIL import Image
 import io
 import base64
 from pathlib import Path
+import sys
+import subprocess
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+try:
+    import plotly.express as px
+    import plotly.graph_objects as go
+except ModuleNotFoundError:
+    install("plotly")
+    import plotly.express as px
+    import plotly.graph_objects as go
+
 
 # Page Configuration
 st.set_page_config(
