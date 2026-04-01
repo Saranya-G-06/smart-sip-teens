@@ -1,0 +1,56 @@
+fund_name,category,expected_return_pct,risk_level,min_sip,aum_cr,rating
+Fund 1 - ELSS,ELSS,15.6,Low,200,20360.0,5
+Fund 2 - Mid Cap,Mid Cap,15.6,Medium,1000,46339.0,4
+Fund 3 - Small Cap,Small Cap,21.3,Medium,1000,23385.0,5
+Fund 4 - Large Cap,Large Cap,10.4,Low,200,16726.0,5
+Fund 5 - Large Cap,Large Cap,12.3,Medium,1000,41712.0,4
+Fund 6 - Small Cap,Small Cap,15.5,Low,500,13460.0,4
+Fund 7 - Small Cap,Small Cap,23.0,Low,100,4647.0,4
+Fund 8 - Debt,Debt,7.5,Low,1000,41650.0,5
+Fund 9 - Index,Index,10.8,High,500,43230.0,3
+Fund 10 - Large Cap,Large Cap,11.8,Low,200,44089.0,4
+Fund 11 - Large Cap,Large Cap,11.2,Medium,100,44087.0,3
+Fund 12 - Debt,Debt,8.0,High,100,2061.0,4
+Fund 13 - ELSS,ELSS,14.8,Low,200,5882.0,4
+Fund 14 - Debt,Debt,7.3,Medium,100,29340.0,5
+Fund 15 - Index,Index,10.6,Medium,1000,42278.0,4
+Fund 16 - Debt,Debt,8.6,Medium,1000,5117.0,4
+Fund 17 - Debt,Debt,8.6,Medium,1000,41528.0,3
+Fund 18 - ELSS,ELSS,14.9,Medium,500,20307.0,3
+Fund 19 - Large Cap,Large Cap,12.4,Medium,100,24475.0,4
+Fund 20 - Small Cap,Small Cap,24.7,Medium,200,32534.0,3
+Fund 21 - ELSS,ELSS,13.0,Medium,100,26112.0,3
+Fund 22 - Debt,Debt,8.0,Medium,1000,42920.0,5
+Fund 23 - Debt,Debt,8.1,High,500,30635.0,5
+Fund 24 - ELSS,ELSS,12.5,High,500,40966.0,5
+Fund 25 - Index,Index,12.9,Low,1000,46842.0,4
+Fund 26 - ELSS,ELSS,13.0,Low,1000,21055.0,4
+Fund 27 - Debt,Debt,7.3,Medium,500,3639.0,4
+Fund 28 - ELSS,ELSS,15.0,High,1000,3227.0,4
+Fund 29 - Large Cap,Large Cap,10.1,High,1000,38841.0,5
+Fund 30 - Small Cap,Small Cap,15.3,High,500,45931.0,4
+Fund 31 - Large Cap,Large Cap,11.9,Medium,1000,28142.0,3
+Fund 32 - Hybrid,Hybrid,12.1,High,1000,34211.0,4
+Fund 33 - Mid Cap,Mid Cap,12.8,Medium,500,2372.0,4
+Fund 34 - Small Cap,Small Cap,21.1,High,100,34063.0,3
+Fund 35 - Hybrid,Hybrid,10.4,Low,1000,8166.0,4
+Fund 36 - Small Cap,Small Cap,21.0,High,100,30509.0,4
+Fund 37 - ELSS,ELSS,13.8,High,1000,48997.0,4
+Fund 38 - Hybrid,Hybrid,11.8,Low,500,25635.0,5
+Fund 39 - Small Cap,Small Cap,18.5,Low,100,43032.0,3
+Fund 40 - Large Cap,Large Cap,12.1,Medium,500,24577.0,4
+Fund 41 - Large Cap,Large Cap,10.3,Low,500,20278.0,3
+Fund 42 - Index,Index,12.9,Medium,1000,8165.0,3
+Fund 43 - Mid Cap,Mid Cap,16.1,High,500,35114.0,3
+Fund 44 - Small Cap,Small Cap,18.9,Medium,200,39911.0,4
+Fund 45 - Mid Cap,Mid Cap,17.6,High,200,45450.0,3
+Fund 46 - Large Cap,Large Cap,11.2,Low,200,21924.0,5
+Fund 47 - Index,Index,11.5,High,200,30236.0,4
+Fund 48 - Mid Cap,Mid Cap,17.6,Low,1000,19023.0,5
+Fund 49 - Small Cap,Small Cap,18.4,High,100,5123.0,5
+Fund 50 - Small Cap,Small Cap,20.0,Medium,500,14512.0,3
+Fund 51 - Mid Cap,Mid Cap,15.3,Low,500,2991.0,3
+Fund 52 - Hybrid,Hybrid,9.4,Medium,500,41907.0,3
+Fund 53 - Index,Index,10.9,Medium,1000,34812.0,4
+Fund 54 - ELSS,ELSS,15.3,Low,1000,39324.0,5
+Fund 55 - ELSS,ELSS,12.1,Low,500,37091.0,3
