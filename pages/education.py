@@ -58,8 +58,12 @@ def show_education():
         is_done = title in completed
         cfg     = DIFF.get(diff, DIFF["Beginner"])
 
-        with st.expander(f"{cfg['icon']}  {title}  {'✅' if is_done else f'· ⭐ {points} pts'}"):
-            cc, ca = st.columns([3,1])
+        # Build a clean expander label without overlapping elements
+        status_label = "✅ Completed" if is_done else f"⭐ {points} pts"
+        expander_label = f"{cfg['icon']}  {title}  ·  {status_label}"
+
+        with st.expander(expander_label):
+            cc, ca = st.columns([3, 1])
             with cc:
                 st.markdown(f"""
                 <div style="background:{cfg['bg']};border-left:4px solid {cfg['color']};

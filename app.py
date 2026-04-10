@@ -501,6 +501,7 @@ else:
         for pid, icon, label in NAV:
             active = st.session_state.current_page == pid
             if active:
+                # Active item: show styled div only, no button (avoids text overlap)
                 st.markdown(f"""
                 <div style="background:#FFFC00;border-radius:14px;padding:11px 16px;
                   margin:4px 0;display:flex;align-items:center;gap:10px;
@@ -509,9 +510,11 @@ else:
                   <span style="font-family:'Nunito',sans-serif;font-weight:900;
                     font-size:0.88rem;color:#141414">{label}</span>
                 </div>""", unsafe_allow_html=True)
-            if st.button(f"{icon}  {label}", key=f"nav_{pid}", use_container_width=True):
-                st.session_state.current_page = pid
-                st.rerun()
+            else:
+                # Inactive items: clickable button only
+                if st.button(f"{icon}  {label}", key=f"nav_{pid}", use_container_width=True):
+                    st.session_state.current_page = pid
+                    st.rerun()
 
         st.markdown("<div style='height:16px'></div>", unsafe_allow_html=True)
         if st.button("👋  Sign Out", use_container_width=True):
